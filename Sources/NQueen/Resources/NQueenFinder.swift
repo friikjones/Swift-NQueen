@@ -4,6 +4,7 @@ func solveQueens(_ board: inout Board, row: Int = 0, findAllSolution: Bool = fal
   if row == board.size {
     if findAllSolution {
       print(board)
+	  numOfAllPossibility += 1
     }
     return true
   } else {
